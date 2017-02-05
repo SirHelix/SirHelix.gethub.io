@@ -107,13 +107,12 @@ li a {
     margin: auto;
 }
 
-#worklink {
+h3 {
     color: hsla(120, 0%, 100%, 0.60);
     font: italic 25px Oswald;
     text-transform: uppercase;
     margin: 0;
     padding-left: 5%;
-    margin-right: 100%;
     background-color: rgba(99, 37, 62, .50);
 }
 
