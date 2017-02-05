@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(18, 29, 49, .75);
+    padding-top: 1%;
+    margin: auto;
+    max-width: 80%;
+}
+
+#cur {
+    background-color: rgba(99, 37, 62, .25);
+}
+
+.cur {
+    background-color: rgba(99, 37, 62, .25);
+}
+
+#last {
+    border-right: solid rgba(99, 37, 62, 0)
+}
+#title {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+}
+
+#title2 {
+    font-size: 30px;
+    color: hsla(120, 0%, 100%, 0.85);
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+#sub {
+    color: white;
+    font-size: 25px;
+    font-family: Oswald;
+    margin: 0;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: Oswald;
+    margin: 0;
+}
+ul {    
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    min-width: 100%;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    float: left;
+    color: hsla(120, 0%, 100%, 0.60);
+    font: italic 18px Oswald;
+    text-transform: uppercase;
+    border-right: solid 2px hsla(120, 0%, 100%, 0.60);
+    background-color: rgba(99, 37, 62, .50);
+    min-width: 25%
+}
+
+#intro {
+    text-align: center;
+    color: hsla(120, 0%, 100%, 0.75);
+    font-size: 20px;
+    font-family: Oswald;
+    font-style: italic;
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+#interestlink {
+    color: white;
+    font-size: 20px;
+    font-family: Oswald;
+    margin: 0;
+}
+
+#homeimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 0;
+    width: 95%;
+}
+
+#work {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+#worklink {
+    color: hsla(120, 0%, 100%, 0.60);
+    font: italic 25px Oswald;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 5%;
+    margin-right: 100%;
+    background-color: rgba(99, 37, 62, .50);
+}
+
+br {
+    border-bottom: 3px white;
+}
