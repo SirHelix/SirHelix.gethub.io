@@ -26,6 +26,7 @@ body {
 #last {
     border-right: solid rgba(99, 37, 62, 0)
 }
+
 #title {
     display: block;
     margin: auto;
@@ -41,7 +42,6 @@ body {
 }
 
 #sub {
-    color: white;
     font-size: 25px;
     font-family: Oswald;
     margin: 0;
@@ -105,6 +105,17 @@ li a {
     display: block;
     width: 90%;
     margin: auto;
+}
+
+#bottom {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#para {
+    text-indent: 5%;
+    padding: 5%;
 }
 
 h3 {
