@@ -33,26 +33,14 @@ body {
     max-width: 50%;
 }
 
-#title2 {
+h2 {
     font-size: 30px;
-    color: hsla(120, 0%, 100%, 0.85);
+    color: hsla(0, 0%, 100%, 0.85);
     margin: 0;
     text-align: center;
     font-style: italic;
 }
 
-#sub {
-    font-size: 25px;
-    font-family: Oswald;
-    margin: 0;
-}
-
-p {
-    color: white;
-    font-size: 20px;
-    font-family: Oswald;
-    margin: 0;
-}
 ul {    
     list-style-type: none;
     margin: auto;
@@ -67,10 +55,10 @@ li a {
     padding: 10px 16px;
     text-decoration: none;
     float: left;
-    color: hsla(120, 0%, 100%, 0.60);
+    color: hsla(0, 0%, 100%, 0.60);
     font: italic 18px Oswald;
     text-transform: uppercase;
-    border-right: solid 2px hsla(120, 0%, 100%, 0.60);
+    border-right: solid 2px hsla(0, 0%, 100%, 0.60);
     background-color: rgba(99, 37, 62, .50);
     min-width: 25%
 }
@@ -83,13 +71,6 @@ li a {
     font-style: italic;
     margin: 0;
     letter-spacing: 4px;
-}
-
-#interestlink {
-    color: white;
-    font-size: 20px;
-    font-family: Oswald;
-    margin: 0;
 }
 
 #homeimg {
@@ -108,18 +89,41 @@ li a {
 }
 
 #bottom {
+    color: hsla(0, 0%, 100%, 0.60);
+    font: italic 25px Oswald;
     font-size: 15px;
     text-align: center;
     margin-top: 50px;
+    padding-bottom: 5px;
 }
 
 #para {
-    text-indent: 5%;
-    padding: 5%;
+    text-indent: 25px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: Oswald;
+    margin: 0;
+}
+
+#quote {
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 135px 0px;
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+#quoteimg {
+    float: right;
+    display: block;
+    width: 150px;
+    margin: 20px 20px 0px 0px;
+    display: block;
 }
 
 h3 {
-    color: hsla(120, 0%, 100%, 0.60);
+    color: hsla(0, 0%, 100%, 0.60);
     font: italic 25px Oswald;
     text-transform: uppercase;
     margin: 0;
